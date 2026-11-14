@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>For Namrata Ma’am</title>
+<meta name="theme-color" content="#f6efe4">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Nunito+Sans:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<button class="music" id="music" aria-pressed="false" hidden>♪ Music off</button>
+
+<header class="hero" id="hero">
+  <p class="to">Dear Namrata Ma’am ❤️</p>
+  <h1>Some Teachers Leave Lessons.<br>Some Leave Memories.</h1>
+  <p class="sub">A little something for the teacher who made our journey a little more memorable.</p>
+  <p class="from">From Nishant, your former COPA student</p>
+  <button class="btn" id="open">Open Your Surprise</button>
+</header>
+
+<main id="main" hidden>
+  <section class="sec" id="appreciation">
+    <h2 class="rv">To Someone Who Deserves a Little Appreciation</h2>
+    <div class="note rv">
+      <p>Dear Namrata Ma’am,</p>
+      <p>We may have completed our training, and everyone may have moved on to their own journeys, but some memories never really leave us.</p>
+      <p>You were not just our COPA teacher. You were someone who guided us, corrected us, taught us new things and reminded us to take our responsibilities seriously.</p>
+      <p>Maybe we didn’t realise the value of every little lesson at that time, but looking back, we genuinely appreciate everything.</p>
+      <p>This little website is simply our way of saying thank you.</p>
+    </div>
+  </section>
+
+  <section class="sec alt" id="journey">
+    <h2 class="rv">40 KM, 3 Days a Week &amp; Unlimited Adventures 😂</h2>
+    <div class="route rv" id="route" aria-label="Route: Home, Auto, Metro, Bus, ITI">
+      <div class="line"><i id="fill"></i></div>
+      <button class="stop on" data-i="0"><span>🏠</span>Home</button>
+      <button class="stop" data-i="1"><span>🛺</span>Auto</button>
+      <button class="stop" data-i="2"><span>🚇</span>Metro</button>
+      <button class="stop" data-i="3"><span>🚌</span>Bus</button>
+      <button class="stop" data-i="4"><span>🏫</span>ITI</button>
+    </div>
+    <p class="caption" id="caption" aria-live="polite">Three days every week. Almost 40 kilometres.</p>
+    <button class="btn small" id="go">Start the journey</button>
+    <div class="note rv">
+      <p>Three days every week, travelling almost 40 kilometres just to attend ITI.</p>
+      <p class="chain">Auto → Metro → Bus → Finally, ITI!</p>
+      <p>Sometimes the journey itself felt like a complete adventure.</p>
+      <p>And after all that travelling, there was always one more challenge waiting… Being late and listening to Namrata Ma’am’s scolding! 😂</p>
+      <p>We travelled so far, fought traffic, changed transport and somehow still managed to arrive late.</p>
+      <p>At that time, getting scolded didn’t always feel funny. But today, those little moments have become some of the memories we can laugh about.</p>
+    </div>
+  </section>
+
+  <section class="sec" id="memories">
+    <h2 class="rv">Things We Will Probably Never Forget</h2>
+    <div class="cards">
+      <article class="card rv" tabindex="0"><h3>Attendance Ki Tension</h3><p>That constant feeling of checking whether we had enough attendance.</p></article>
+      <article class="card rv" tabindex="0"><h3>Assignments &amp; Practicals</h3><p>Trying to complete our work while managing everything else.</p></article>
+      <article class="card rv" tabindex="0"><h3>The Famous Scolding</h3><p>Being late and hearing Ma’am remind us about discipline. 😂</p></article>
+      <article class="card rv" tabindex="0"><h3>Those Little Moments</h3><p>The ordinary classroom moments that became special memories over time.</p></article>
+    </div>
+  </section>
+
+  <section class="sec heart" id="lesson">
+    <h2 class="rv">Behind Every Scolding, There Was a Lesson</h2>
+    <div class="note rv">
+      <p>Ma’am, honestly, at that time, sometimes your scolding felt a little difficult to handle.</p>
+      <p>But now we understand that discipline, punctuality and responsibility are important parts of learning.</p>
+      <p>We might forget some lessons from our notebooks, but the experiences and guidance we receive from teachers stay with us much longer.</p>
+      <p>Thank you for correcting us, guiding us and being a part of our learning journey.</p>
+    </div>
+  </section>
+
+  <section class="sec" id="photo">
+    <h2 class="rv">A Little Appreciation for You</h2>
+    <figure class="frame rv">
+      <!-- PHOTO: put your file at assets/namrata-maam.jpg -->
+      <img src="assets/namrata-maam.jpg" alt="Namrata Ma’am" loading="lazy" onerror="this.parentNode.classList.add('missing')">
+      <figcaption class="ph">Place the photo at<br><b>assets/namrata-maam.jpg</b></figcaption>
+    </figure>
+  </section>
+
+  <section class="sec alt" id="letter">
+    <h2 class="rv">One Last Thing, Ma’am…</h2>
+    <div class="env" id="env">
+      <div class="paper" id="paper">
+        <p>Dear Namrata Ma’am,</p>
+        <p>Thank you for being a part of our journey.</p>
+        <p>Thank you for your patience, your guidance and even those little scoldings that we can laugh about today.</p>
+        <p>We may be pass-out students now, but that doesn’t mean we have forgotten the people who helped us along the way.</p>
+        <p>I hope you continue inspiring many more students, just as you have inspired us.</p>
+        <p>Wishing you happiness, good health and endless reasons to smile.</p>
+        <p class="sign">With lots of respect and gratitude,<br>Your COPA Student,<br>Nishant ❤️</p>
+      </div>
+      <div class="flap"></div>
+    </div>
+    <button class="btn" id="openLetter">Open Your Letter ❤️</button>
+  </section>
+
+  <section class="sec final" id="final">
+    <div class="hearts" id="hearts" aria-hidden="true"></div>
+    <h2 class="big rv">Once Your Student, Always Your Student. ❤️</h2>
+    <p class="sub rv">Thank You, Namrata Ma’am.<br>– Nishant</p>
+    <button class="btn" id="replay">Replay Our Little Journey</button>
+  </section>
+</main>
+<script src="script.js"></script>
+</body>
+</html>
